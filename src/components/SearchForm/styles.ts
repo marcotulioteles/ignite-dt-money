@@ -15,6 +15,10 @@ export const SearchFormContainer = styled.form`
     &::placeholder {
       color: ${(props) => props.theme['gray-500']};
     }
+
+    @media (max-width: 420px) {
+      width: 100%;
+    }
   }
 
   button {
